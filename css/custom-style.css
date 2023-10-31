@@ -1,0 +1,32 @@
+.custom-container {
+    max-width: 90%; /* Set the maximum width to 100% to expand the row */
+    padding-bottom: 5%;
+  }
+  .slider_section .detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .home-cta{
+    height:18em;
+  }
+  .client_info i{
+    font-size: 0.85em;
+  }
+  .client_section .box .client_id .img-box img {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+  }
+  .client_section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .layout_padding2-top{
+    padding-top: 10px;
+  }
+  .heading_container{
+    margin-bottom: 10px;
+  }

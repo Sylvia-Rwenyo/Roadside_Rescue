@@ -33,4 +33,22 @@
   .slider_section .detail-box a {
     text-align: center;
   }
-
+  .register-form{
+    width: 70%;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+  }
+  .register-form .d-flex button{
+    background-color: brown;
+    border: none;
+    margin-left: 30%;
+  }
+  @media screen and (max-width: 600px) {
+    .register-form {
+        margin-left: 15%;
+    }
+    .register-form .d-flex button {
+        margin-left: 15%;
+    }
+}

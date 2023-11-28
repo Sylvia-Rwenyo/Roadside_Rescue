@@ -51,4 +51,7 @@
     .register-form .d-flex button {
         margin-left: 15%;
     }
+    .contact_nav{
+      font-size: 0.85em;
+    }
 }

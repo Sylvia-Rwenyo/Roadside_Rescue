@@ -44,6 +44,9 @@
     border: none;
     margin-left: 30%;
   }
+  .register-form .d-flex button:hover{
+    color: white;
+  }
   @media screen and (max-width: 600px) {
     .register-form {
         margin-left: 15%;
@@ -54,4 +57,21 @@
     .contact_nav{
       font-size: 0.85em;
     }
+}
+.register-form input{
+  color: black;
+}
+input[type="radio"]{
+  width: 1em;
+  height: 1em;
+  background: transparent;
+  box-shadow: none;
+}
+.register-form input[type="radio"]{
+  margin-top: 0.25em;
+}
+.account-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
